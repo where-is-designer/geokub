@@ -1,0 +1,99 @@
+@media (max-width: 420px) {
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .main-header {
+        position: relative;
+        padding-bottom: 20px;
+    }
+
+    .main-header__container {
+        flex-direction: column;
+    }
+    .main-nav__list {
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    }
+    .main-nav__item {
+        margin-bottom: 10px;
+    }
+    .main-nav__item a {
+        padding: 10px;
+    }
+    .login {
+        margin-bottom: 10px;
+    }
+
+    .slider__item {
+        min-height: 220px;
+    }
+
+    .slider__item h2 {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 28px;
+    }
+
+    .company__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .text {
+        font-size: 14px;
+    }
+
+    .advantage-list {
+        grid-template-columns: 1fr;
+    }
+
+    .examples__list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .main-footer__wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .modal {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .modal__login input[type='text'], 
+    .modal__login input[type='password'] {
+        width: 100%;
+    }
+
+    .modal__login .btn__link {
+        width: 100%;
+    }
+    .btn {
+        font-size: 14px;
+        padding: 15px 20px;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .team__list {
+        grid-template-columns: 1fr;
+    }
+    
+    .team__item {
+        width: 320px;
+
+    }
+    
+    .team__item img {
+        width: 320px;
+        height: 300px;
+    }
+}
